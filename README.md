@@ -19,3 +19,5 @@ Hyperparameter tuning
 Threshold optimization
 
 Model evaluation using meaningful metrics
+
+Dataset used: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
