@@ -1,23 +1,77 @@
 # AI_Final_Project
 
-Our project focuses on building and improving machine learning models to detect fraudulent credit card transactions using the publicly available Credit Card Fraud Detection dataset.
-The dataset is highly imbalanced (only 0.17% fraudulent transactions), which makes traditional accuracy misleading and requires advanced techniques to improve model performance.
+This project focuses on building and improving machine learning models
+to detect fraudulent credit card transactions using the publicly
+available **Credit Card Fraud Detection Dataset** (Kaggle).
 
-The primary goal is to demonstrate how model accuracy and recall for fraud cases can be significantly improved through:
+Because the dataset is **highly imbalanced** (fraud cases make up only
+**0.17%** of all transactions), traditional accuracy metrics are
+misleading.\
+This project uses advanced preprocessing, sampling techniques, and model
+tuning to significantly improve fraud-detection performance.
 
-Feature engineering
+## 📌 Project Goals
 
-Data preprocessing
+The primary objective is to enhance the detection of fraudulent
+transactions using:
 
-Handling class imbalance (SMOTE, undersampling)
+### 1. Feature Engineering & Data Preprocessing
 
-Training multiple ML algorithms ( Random Forest, Decision Tree, Naive Bayes,
-and XGBoost)
+-   Cleaning and transforming data\
+-   Scaling numerical features\
+-   Handling missing or skewed values
 
-Hyperparameter tuning
+### 2. Handling Class Imbalance
 
-Threshold optimization
+-   SMOTE (Synthetic Minority Oversampling Technique)\
+-   Random Undersampling\
+-   Hybrid sampling approaches
 
-Model evaluation using meaningful metrics
+### 3. Training Multiple ML Algorithms
 
-Dataset used: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
+-   Random Forest\
+-   Decision Tree\
+-   Naive Bayes\
+-   XGBoost
+
+### 4. Hyperparameter Tuning
+
+-   Grid Search / Random Search\
+-   Cross-validation\
+-   Threshold optimization
+
+### 5. Evaluation Metrics
+
+-   Classification Report\
+-   Confusion Matrix\
+-   ROC-AUC\
+-   Precision-Recall Curve\
+-   F1-Score\
+-   Recall (Fraud Detection Performance)
+
+## 📊 Dataset
+
+Dataset used:\
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
+
+Place `creditcard.csv` in the project root directory.
+
+## 📦 Setup
+
+Install dependencies:
+
+``` bash
+pip install -r requirements.txt
+```
+
+## ▶️ Running the Project
+
+1.  Ensure dataset is in the root directory\
+2.  Open the notebook or script\
+3.  Run preprocessing, sampling, model training, and evaluation steps
+
+## 📈 Summary
+
+This project demonstrates how preprocessing, sampling strategies, and
+model tuning significantly improve fraud detection accuracy and recall
+in highly imbalanced datasets.
