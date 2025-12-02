@@ -1,4 +1,5 @@
-# AI_Final_Project
+# Credit Card Approval: Improving Model with
+ Diverse Machine Learning Techniques
 
 This project focuses on building and improving machine learning models
 to detect fraudulent credit card transactions using the publicly
